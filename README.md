@@ -19,7 +19,7 @@ En caso de falta de wifi (por energia o corte de cable de fibra), no se podra en
 Se puede dejar nuevas adiciones para mas adelante, como sensor de inciendio.
 
 
-### App Movil
+### App Móvil
 Las app moviles principalmente contará con un sistema de push para avisar cuando algún vecino esta con la alarma activada, además de poder acceder a un panel del barrio y ver cuales son las alarmas activadas, además de tener un estado del tiempo si es posible para saber si hay fuertes vientos y tormenta electrica que pueden haber generado una falsa alarma, si es viable conectarse con ute para saber si hay corte en el barrio.
 A su vez la app puede tener botón de panico para activar su propia alarama y avisar al resto.
 
@@ -33,7 +33,7 @@ En el caso que lo que se haya accionado sea el botón de pánico, se activará e
 ### Dispositivo de pánico
 Se puede añadir un dispositivo de pánico con un botón lora para enviar la señal a la unidad hogareña y que esta a su vez la envíe al servidor.
 
-## Plataformas y tecnologias
+## Plataformas y tecnologías
 Si bien estamos en una etapa inicial, la idea es utilizar difernetes tecnologías por modulos.
 
 Una opción viable puede ser instalar https://openremote.io/ el cual sirve como servidor, dashboard e incluye una app móvil que puede utilizarse, hay que estudiarlo....
@@ -41,10 +41,10 @@ Una opción viable puede ser instalar https://openremote.io/ el cual sirve como 
 ### Unidad Hogareña
 esp32 con arduino para el manejo de los dispotivos hogareños y Lora
 
-###Servidor Cenrtal 
+### Servidor Central 
 Un servidor en la nube, el cual puede ser varias opciones, por ejemplo Vercel, y el mismo u otro que maneje MQTT
 
-### App Movil
+### App Móvil
 Para las app móviles se puede usar flutter o algo tipo Ionic
 
 
